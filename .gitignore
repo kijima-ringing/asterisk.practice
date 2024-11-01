@@ -1,0 +1,22 @@
+# ログファイル
+*.log
+log/*
+messages
+cdr-*
+
+# 秘密情報
+*.key
+*.pem
+*password*
+
+# 一時ファイル
+*.tmp
+*.swp
+
+# 通話録音
+monitor/*
+*.wav
+*.gsm
+
+# キャッシュファイル
+.DS_Store
